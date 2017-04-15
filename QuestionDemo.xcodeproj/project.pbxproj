@@ -15,6 +15,12 @@
 		4C142D3F1EA098F200EF90B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C142D3D1EA098F200EF90B8 /* LaunchScreen.storyboard */; };
 		4C142D4A1EA098F200EF90B8 /* QuestionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C142D491EA098F200EF90B8 /* QuestionDemoTests.m */; };
 		4C142D551EA098F200EF90B8 /* QuestionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C142D541EA098F200EF90B8 /* QuestionDemoUITests.m */; };
+		4C142DB21EA0AE5300EF90B8 /* QuestionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C142DB11EA0AE5300EF90B8 /* QuestionItemView.m */; };
+		4C142DB51EA0B76600EF90B8 /* QuestionAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C142DB41EA0B76600EF90B8 /* QuestionAnswerView.m */; };
+		4C142DB71EA0BB2B00EF90B8 /* QuestionAnswerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C142DB61EA0BB2B00EF90B8 /* QuestionAnswerView.xib */; };
+		4C142DBA1EA0C2AD00EF90B8 /* QuestionAnswerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C142DB91EA0C2AD00EF90B8 /* QuestionAnswerItemView.m */; };
+		4C142DBC1EA0C31A00EF90B8 /* QuestionAnswerItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C142DBB1EA0C31A00EF90B8 /* QuestionAnswerItemView.xib */; };
+		D4B59FF1A4482330407AC9B2 /* libPods-QuestionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71F8CC32295798CDA3259 /* libPods-QuestionDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091ADAD8190AB94EE8776944 /* Pods-QuestionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionDemo/Pods-QuestionDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4C142D2C1EA098F200EF90B8 /* QuestionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C142D301EA098F200EF90B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C142D321EA098F200EF90B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,16 @@
 		4C142D501EA098F200EF90B8 /* QuestionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C142D541EA098F200EF90B8 /* QuestionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionDemoUITests.m; sourceTree = "<group>"; };
 		4C142D561EA098F200EF90B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C142DB01EA0AE5300EF90B8 /* QuestionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionItemView.h; sourceTree = "<group>"; };
+		4C142DB11EA0AE5300EF90B8 /* QuestionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionItemView.m; sourceTree = "<group>"; };
+		4C142DB31EA0B76600EF90B8 /* QuestionAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionAnswerView.h; sourceTree = "<group>"; };
+		4C142DB41EA0B76600EF90B8 /* QuestionAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionAnswerView.m; sourceTree = "<group>"; };
+		4C142DB61EA0BB2B00EF90B8 /* QuestionAnswerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionAnswerView.xib; sourceTree = "<group>"; };
+		4C142DB81EA0C2AD00EF90B8 /* QuestionAnswerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionAnswerItemView.h; sourceTree = "<group>"; };
+		4C142DB91EA0C2AD00EF90B8 /* QuestionAnswerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionAnswerItemView.m; sourceTree = "<group>"; };
+		4C142DBB1EA0C31A00EF90B8 /* QuestionAnswerItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionAnswerItemView.xib; sourceTree = "<group>"; };
+		63114807BD3916135F8E00F3 /* Pods-QuestionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionDemo/Pods-QuestionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF71F8CC32295798CDA3259 /* libPods-QuestionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuestionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B59FF1A4482330407AC9B2 /* libPods-QuestionDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				4C142D481EA098F200EF90B8 /* QuestionDemoTests */,
 				4C142D531EA098F200EF90B8 /* QuestionDemoUITests */,
 				4C142D2D1EA098F200EF90B8 /* Products */,
+				5DB1EDFD63DBE96637D1501C /* Pods */,
+				6F14EBC7202CA548E4843496 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,14 @@
 				4C142D3D1EA098F200EF90B8 /* LaunchScreen.storyboard */,
 				4C142D401EA098F200EF90B8 /* Info.plist */,
 				4C142D2F1EA098F200EF90B8 /* Supporting Files */,
+				4C142DB01EA0AE5300EF90B8 /* QuestionItemView.h */,
+				4C142DB11EA0AE5300EF90B8 /* QuestionItemView.m */,
+				4C142DB31EA0B76600EF90B8 /* QuestionAnswerView.h */,
+				4C142DB41EA0B76600EF90B8 /* QuestionAnswerView.m */,
+				4C142DB61EA0BB2B00EF90B8 /* QuestionAnswerView.xib */,
+				4C142DB81EA0C2AD00EF90B8 /* QuestionAnswerItemView.h */,
+				4C142DB91EA0C2AD00EF90B8 /* QuestionAnswerItemView.m */,
+				4C142DBB1EA0C31A00EF90B8 /* QuestionAnswerItemView.xib */,
 			);
 			path = QuestionDemo;
 			sourceTree = "<group>";
@@ -140,6 +168,23 @@
 			path = QuestionDemoUITests;
 			sourceTree = "<group>";
 		};
+		5DB1EDFD63DBE96637D1501C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63114807BD3916135F8E00F3 /* Pods-QuestionDemo.debug.xcconfig */,
+				091ADAD8190AB94EE8776944 /* Pods-QuestionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F14EBC7202CA548E4843496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF71F8CC32295798CDA3259 /* libPods-QuestionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C142D591EA098F200EF90B8 /* Build configuration list for PBXNativeTarget "QuestionDemo" */;
 			buildPhases = (
+				DE19D27C8033B2DB1AAEB102 /* [CP] Check Pods Manifest.lock */,
 				4C142D281EA098F200EF90B8 /* Sources */,
 				4C142D291EA098F200EF90B8 /* Frameworks */,
 				4C142D2A1EA098F200EF90B8 /* Resources */,
+				7BE9D20C845E2F5E08DCBD25 /* [CP] Embed Pods Frameworks */,
+				1030BD290A98A3C022160BCB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +299,8 @@
 			files = (
 				4C142D3F1EA098F200EF90B8 /* LaunchScreen.storyboard in Resources */,
 				4C142D3C1EA098F200EF90B8 /* Assets.xcassets in Resources */,
+				4C142DBC1EA0C31A00EF90B8 /* QuestionAnswerItemView.xib in Resources */,
+				4C142DB71EA0BB2B00EF90B8 /* QuestionAnswerView.xib in Resources */,
 				4C142D3A1EA098F200EF90B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,14 +321,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1030BD290A98A3C022160BCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuestionDemo/Pods-QuestionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BE9D20C845E2F5E08DCBD25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuestionDemo/Pods-QuestionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE19D27C8033B2DB1AAEB102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C142D281EA098F200EF90B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4C142D371EA098F200EF90B8 /* ViewController.m in Sources */,
+				4C142DB51EA0B76600EF90B8 /* QuestionAnswerView.m in Sources */,
 				4C142D341EA098F200EF90B8 /* AppDelegate.m in Sources */,
+				4C142DBA1EA0C2AD00EF90B8 /* QuestionAnswerItemView.m in Sources */,
 				4C142D311EA098F200EF90B8 /* main.m in Sources */,
+				4C142DB21EA0AE5300EF90B8 /* QuestionItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +526,7 @@
 		};
 		4C142D5A1EA098F200EF90B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63114807BD3916135F8E00F3 /* Pods-QuestionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4N4AMP88H6;
@@ -437,6 +539,7 @@
 		};
 		4C142D5B1EA098F200EF90B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091ADAD8190AB94EE8776944 /* Pods-QuestionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4N4AMP88H6;
@@ -516,6 +619,7 @@
 				4C142D5B1EA098F200EF90B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C142D5C1EA098F200EF90B8 /* Build configuration list for PBXNativeTarget "QuestionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +628,7 @@
 				4C142D5E1EA098F200EF90B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C142D5F1EA098F200EF90B8 /* Build configuration list for PBXNativeTarget "QuestionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +637,7 @@
 				4C142D611EA098F200EF90B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

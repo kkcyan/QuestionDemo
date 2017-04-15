@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "iCarousel.h"
 @interface ViewController : UIViewController
-
+<iCarouselDelegate,iCarouselDataSource>
+{
+    iCarousel * carousel;
+}
 
 @end
 
