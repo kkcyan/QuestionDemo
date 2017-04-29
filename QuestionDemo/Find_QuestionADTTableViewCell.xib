@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="Find_QuestionADTTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提醒温馨提馨提醒温馨提醒温馨提醒" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bum-tg-1wz">
+                        <rect key="frame" x="12" y="15" width="281" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="YBR-5s-5xl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.94509803920000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiangyou.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mno-9O-UIV">
+                        <rect key="frame" x="303" y="19" width="5" height="9"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="9" id="GdS-GG-8l0"/>
+                            <constraint firstAttribute="width" constant="5" id="n8v-RR-X9z"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfZ-Jr-zgL">
+                        <rect key="frame" x="0.0" y="47" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hTU-Lj-AV1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Mno-9O-UIV" secondAttribute="trailing" constant="4" id="13f-r3-hcq"/>
+                    <constraint firstItem="mfZ-Jr-zgL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="G5C-Qv-Pua"/>
+                    <constraint firstItem="Mno-9O-UIV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JIj-Hx-4iV"/>
+                    <constraint firstItem="bum-tg-1wz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="KJb-HK-6e9"/>
+                    <constraint firstItem="Mno-9O-UIV" firstAttribute="leading" secondItem="bum-tg-1wz" secondAttribute="trailing" constant="10" id="O6V-ej-yc2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bum-tg-1wz" secondAttribute="bottom" constant="6.5" id="Q3k-vd-R6Y"/>
+                    <constraint firstAttribute="trailing" secondItem="mfZ-Jr-zgL" secondAttribute="trailing" id="VLS-OO-CPH"/>
+                    <constraint firstItem="bum-tg-1wz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="lz0-1o-Opf"/>
+                    <constraint firstAttribute="bottom" secondItem="mfZ-Jr-zgL" secondAttribute="bottom" constant="-0.5" id="v0y-SH-CTW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="43" y="-63"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xiangyou.png" width="10" height="18"/>
+    </resources>
+</document>

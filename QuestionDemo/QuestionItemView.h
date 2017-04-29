@@ -22,6 +22,7 @@ typedef enum : NSUInteger {
     typeDefault = 0,
     typeErrow,
     typeRight,
+    typeNode
 } typeState;
 
 @interface QuestionItemCell : UICollectionViewCell

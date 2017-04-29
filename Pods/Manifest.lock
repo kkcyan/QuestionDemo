@@ -1,12 +1,15 @@
 PODS:
   - iCarousel (1.8.3)
+  - MJRefresh (3.1.12)
 
 DEPENDENCIES:
   - iCarousel
+  - MJRefresh (~> 3.1.0)
 
 SPEC CHECKSUMS:
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
-PODFILE CHECKSUM: 2d753099b80243c91aa4eafb516c4d2993735235
+PODFILE CHECKSUM: b4dfddff97495ba4debd59e009a01f879c361af3
 
 COCOAPODS: 1.2.0.beta.1
