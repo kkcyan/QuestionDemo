@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Find_QuestionNewViewController.h"
+#import "QuestionDemo-Swift.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +20,10 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:[Find_QuestionNewViewController new]];
-    self.window.rootViewController = nav;
+//    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:[Find_QuestionNewViewController new]];
+    
+    
+    self.window.rootViewController = [ViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
